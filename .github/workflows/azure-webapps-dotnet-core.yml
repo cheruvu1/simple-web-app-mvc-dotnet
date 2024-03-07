@@ -3,7 +3,7 @@ name: DevSecOps Deploy to AKS
 env:
   IMAGE_NAME: refarchapp
   IMAGE_TAG: latest
-
+  
 on:
   push:
     branches: [ "master" ]
