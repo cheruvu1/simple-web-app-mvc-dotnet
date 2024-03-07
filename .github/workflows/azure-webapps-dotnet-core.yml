@@ -22,8 +22,8 @@ jobs:
         uses: SonarSource/sonarcloud-github-action@master
         env: 
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-          projectKey: 'dod-devsecops'
-          projectName: 'dod-devsecops'
+          sonar.projectKey: 'dod-devsecops'
+          sonar.organization: 'dod-devsecops'
   Build:
 
     runs-on: ubuntu-latest
